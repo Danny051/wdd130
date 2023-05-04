@@ -30,9 +30,10 @@ aside img{
 
 aside h2{
     position: absolute;
-    top: 30px;
-    left: 520px;
+    top: 20px;
+    left: 530px;
 }
+
 main img {
     width: 150px;
     height: auto;
