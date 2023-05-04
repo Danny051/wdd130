@@ -6,12 +6,13 @@
 
 
 main {
-    max-width: 820px;
+    max-width: 840px;
 }
 
 main h1{
-    color: rgb(23, 100, 100);
+    color: rgb(31, 116, 116);
 }
+
 aside {
     margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2) ; /*  */
@@ -19,6 +20,7 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img{
@@ -26,12 +28,17 @@ aside img{
     height: auto;
 }
 
+aside h2{
+    position: absolute;
+    top: 30px;
+    left: 520px;
+}
 main img {
-    width: 140px;
+    width: 150px;
     height: auto;
     float: right;
-    border: 1px solid #000;
-	box-shadow: 0 0 10px #111;
+    border: 1px solid black;
+    box-shadow: 0 0 10px #111;
 }
 
 p{ padding: 0;}
@@ -43,17 +50,10 @@ footer{
 }
 
 /* Class Selectors */
-/* my class selector rules in this section */
 .box{
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
-    background-color: rgb(23, 100, 100);
+    background-color: rgb(31, 116, 116);
     color: black;
 }
-
-aside{
-    width: 50em;
-    text-align: center;
-}
-
