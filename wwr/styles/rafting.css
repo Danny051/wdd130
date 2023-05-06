@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+:root{
+    --primary-color: #7ACDC8;
+    --secondary-color: #8FCC96;
+    --accent1-color: #656839;
+    --accent2-color: #E3CAD7;
+
+    --heading-font: "Roboto-Slab", serif;
+    --paragraph-font: "Roboto-Slab", serif;
+
+    --nav-background-color: #7ACDC8;
+    --nav-link-color: #8FCC96;
+    --nav-hover-link-color: #656839;
+    --nav-hover-background-color: #E3CAD7;
+}
+
+body{
+    font-family: var(--paragraph-color);
+    max-width: 960px;
+    padding: 500px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+header{
+    padding: 20px;
+    font-size: 25px;
+}
+
+p{
+    padding: 25px;
+    font-size: 20px;
+}
+
+.sociallinks a{
+    text-decoration: none;
+}
+
+ 
+div.hero{
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 80px;
+    left: 2px;
+    background-color: black;
+    padding-right: 430px;
+    padding-left: 430px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 0.8;
+}
+
+article{
+    position: absolute;
+    max-width: 200px;
+    padding: 20px;
+    top: 200px;
+    right: 100px;
+    background-color: var(--nav-hover-link-color);
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+article img{
+    float: right;
+}
