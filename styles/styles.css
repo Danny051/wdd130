@@ -66,7 +66,7 @@ header, .grid, footer {
     margin: 0 auto;
 }
 
-div .grid{
+.grid{
     display: grid;
     align-items: center;
 }
