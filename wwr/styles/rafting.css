@@ -16,7 +16,7 @@
 }
 
 
-header, body, footer{
+header, body{
     display: grid;
     max-width: 100%;
     margin: 0 auto;
@@ -135,7 +135,9 @@ article img{
     align-content: center;
 }
 
+
 footer{
     display: flex;
-    justify-content: flex-end;
+    margin-left: auto;
+    
 }
