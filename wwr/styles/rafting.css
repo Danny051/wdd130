@@ -139,5 +139,8 @@ article img{
 footer{
     display: flex;
     margin-left: auto;
-    
 }
+
+/* article h2{
+    align-self: center;
+} */
