@@ -88,7 +88,7 @@ p{
 
  
 .hero article{
-    position: flex;
+    display: flex;
 }
 
 .hero h1{
